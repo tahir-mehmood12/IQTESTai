@@ -1,0 +1,15 @@
+.footer {
+  @apply p-10 flex justify-between items-center;
+}
+
+.copyRight {
+  @apply text-lg;
+}
+
+.social {
+  @apply flex justify-between w-64 mr-14;
+}
+
+.social button {
+  @apply bg-[#5235E8] text-white p-3 rounded-full items-center;
+}
