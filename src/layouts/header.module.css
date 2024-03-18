@@ -14,11 +14,11 @@
 }
 
 .navButton button {
-  @apply pt-4 pb-4 bg-[#5235E8] text-white rounded-full min-w-28 flex justify-center items-center;
+  @apply pt-4 pb-4 bg-[#5235E8] text-white rounded-full min-w-28 h-12 flex justify-center items-center;
 }
 
-.navButton select {
-  @apply p-3 min-w-32 flex justify-center items-center border-2 border-solid bg-[#EDF2F7] rounded-3xl;
+.options button {
+  @apply pl-4 pr-4 min-w-10 h-12 text-lg font-normal flex justify-center items-center gap-1 border-2 border-solid bg-[#EDF2F7] rounded-xl text-black;
 }
 
 .navLinks {
@@ -26,12 +26,4 @@
 }
 .activeLink {
   @apply font-semibold p-1 text-[#5235E8];
-}
-
-.show {
-  display: block;
-}
-
-.hide {
-  display: none;
 }

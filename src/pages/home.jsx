@@ -1,8 +1,9 @@
 import { Drafts } from "@mui/icons-material";
 
 import styles from "./home.module.css";
-import Input from "../components/input";
-import MainComponent from "../components/mainComponent";
+
+import Main from "../components/main/main";
+import Input from "../components/input/input";
 
 function Home() {
   return (
@@ -32,19 +33,9 @@ function Home() {
           <p>Test your IQ in a very easy and simple step not complex.</p>
         </div>
         <div className={styles.components}>
-          <MainComponent
-            title="IQTEST"
-            link1="Quiz"
-            link2="Results"
-            link3="Pricing"
-          />
-          <MainComponent
-            title="Support"
-            link1="Help"
-            link2="FAQ"
-            link3="Contact"
-          />
-          <MainComponent
+          <Main title="IQTEST" link1="Quiz" link2="Results" link3="Pricing" />
+          <Main title="Support" link1="Help" link2="FAQ" link3="Contact" />
+          <Main
             title="Legal"
             link1="Privacy Policy"
             link2="Term of Service"

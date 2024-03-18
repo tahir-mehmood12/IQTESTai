@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 import styles from "./header.module.css";
+import { KeyboardArrowDown } from "@mui/icons-material";
 
 function Header() {
   return (
@@ -48,12 +49,12 @@ function Header() {
       </nav>
 
       <div className={styles.navButton}>
-        <select className={styles.options}>
-          <option value="english">English</option>
-          <option value="urdu">Urdu</option>
-          <option value="arabic">Arabic</option>
-          <option value="french">French</option>
-        </select>
+        <div className={styles.options}>
+          <button>
+            English
+            <KeyboardArrowDown />
+          </button>
+        </div>
         <button>Login</button>
       </div>
     </header>

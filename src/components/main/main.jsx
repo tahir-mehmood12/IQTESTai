@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-import styles from "./mainComponent.module.css";
+import styles from "./main.module.css";
 
-function MainComponent({ title, link1, link2, link3 }) {
+function Main({ title, link1, link2, link3 }) {
   return (
     <div className={styles.main}>
       <p>{title}</p>
@@ -19,4 +19,4 @@ function MainComponent({ title, link1, link2, link3 }) {
   );
 }
 
-export default MainComponent;
+export default Main;
