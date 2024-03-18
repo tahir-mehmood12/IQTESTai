@@ -5,7 +5,11 @@ function Input() {
     <div className={styles.main}>
       <h2>Stay up to date</h2>
       <div className={styles.input}>
-        <input type="email" placeholder="Enter your Email" />
+        <input
+          type="email"
+          placeholder="Enter your Email"
+          className="text-black"
+        />
         <button>Subscribe</button>
       </div>
       <p>By subscribing you agree with our Privacy Policy</p>
