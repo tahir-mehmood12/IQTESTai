@@ -1,5 +1,5 @@
 .header {
-  @apply p-10  flex justify-between items-center;
+  @apply p-10  bg-white flex justify-between items-center sticky top-0 z-50;
 }
 
 .logo {
