@@ -1,0 +1,22 @@
+.main {
+  @apply flex flex-col sm:text-center md:text-center lg:text-center sm:w-11/12 md:w-11/12 xl:w-1/2 2xl:w-1/2;
+}
+
+.main h2 {
+  @apply mb-9 font-bold text-3xl text-center;
+}
+
+.input {
+  @apply flex items-center gap-4 sm:flex-col lg:flex-row;
+}
+
+.input input {
+  @apply p-7 rounded-full h-[4.75rem] text-base w-full;
+}
+
+.input button {
+  @apply pt-6 pb-6 text-2xl text-white bg-[#5235E8] w-64 rounded-full;
+}
+.main p {
+  @apply mt-6 text-2xl text-center;
+}

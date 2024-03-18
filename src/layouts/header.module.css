@@ -1,14 +1,37 @@
 .header {
-  @apply p-10 bg-slate-600 flex justify-between items-center;
+  @apply p-10  flex justify-between items-center;
 }
 
 .logo {
-  @apply text-3xl font-extrabold;
+  @apply flex text-3xl font-semibold justify-center items-center gap-3 ml-3;
 }
 .navlink {
-  @apply flex justify-between w-[45rem] text-xl;
+  @apply flex justify-around w-[45rem] text-xl;
 }
 
 .navButton {
-  @apply w-32 mr-14 flex justify-between text-xl;
+  @apply flex justify-between text-xl gap-6;
+}
+
+.navButton button {
+  @apply pt-4 pb-4 bg-[#5235E8] text-white rounded-full min-w-28 flex justify-center items-center;
+}
+
+.navButton select {
+  @apply p-3 min-w-32 flex justify-center items-center border-2 border-solid bg-[#EDF2F7] rounded-3xl;
+}
+
+.navLinks {
+  @apply font-semibold p-1;
+}
+.activeLink {
+  @apply font-semibold p-1 text-[#5235E8];
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }

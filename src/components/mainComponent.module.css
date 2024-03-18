@@ -1,0 +1,7 @@
+.main {
+  @apply flex flex-col items-start gap-2 p-4;
+}
+
+.main p {
+  @apply text-xl font-semibold;
+}
